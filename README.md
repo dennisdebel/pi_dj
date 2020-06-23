@@ -79,7 +79,7 @@ You will be greeted by the i3 config window, allowing you to choose a 'super' or
 ### Auto run
 To automatically start Mixxx on startup, in full screen, edit the i3 config file located at: ~/.confid/i3/config (see example in this repo).
 
-There is a strange bug where the mixxx window seems to loose focus when auto running in i3, this is solved by launching it 'floating'. Even stranger is that the window will go full screen anyway, while keeping focus, yeah!
+There is a strange bug where the mixxx window seems to loose focus when auto running in i3, ~~this is solved by launching it 'floating'. Even stranger is that the window will go full screen anyway, while keeping focus, yeah!~~
 
 
 ### Done!
@@ -96,6 +96,9 @@ The provide skin 'LateNightMinimal800x480' is based on the default LateNight res
 The mapping provided is particular to my controller and contains many bugs but it sorta works for me. I mainly used the midi learn wizard on the original LateNight skin to map my buttons and sliders. The jog wheels are scripted in javascript based on the mapping for the iDJ iCON found [here](https://github.com/kfigiela/Mixxx-iCON-iDJ).
 
 ### Bugs
+
+ * Mixxx 'loses focus' on auto run, this prevents you from scrolling trough the Mixxx library using a rotary encoder. Not sure of this is my mapping, mixxx or i3...
+  
  * You want to plug in your controller before starting Mixxx, otherwise Mixx will just hang/crash
 
 
