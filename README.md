@@ -24,10 +24,7 @@ This guide assumes a lot, amongst others the following config:
 
 ## Demo
 
-[Here](https://youtu.be/8e7d7WbtZsc)
-
-* Audio removed due to copy right claim....Let me make a new demo..
-
+[Here](https://youtu.be/UZam2aeX3Nc) (Youtube). 
 
 ## Install
 
@@ -79,7 +76,7 @@ You will be greeted by the i3 config window, allowing you to choose a 'super' or
 ### Auto run
 To automatically start Mixxx on startup, in full screen, edit the i3 config file located at: ~/.confid/i3/config (see example in this repo).
 
-There is a strange bug where the mixxx window seems to loose focus when auto running in i3, ~~this is solved by launching it 'floating'. Even stranger is that the window will go full screen anyway, while keeping focus, yeah!~~
+There is a strange bug where the mixxx window seems to loose focus when auto running on boot, ~~this is solved by launching it 'floating'. Even stranger is that the window will go full screen anyway, while keeping focus, yeah!~~
 
 
 ### Done!
