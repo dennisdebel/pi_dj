@@ -46,7 +46,7 @@ This install assumes you want to boot Mixxx as soon as you power your Raspberry 
 ### Power
 For installation I would suggest powering your setup using the original Raspberry Pi power brick (mine is rated at 2.0mA). This allows you to hook-up a mouse, keyboard and not run into power issues. For the sake of portability it would be nice to run the setup with some sort of battery. My 2.1mA rated USB Powerbank...did not deliver. Another one, branded 'pisen', rated at 2.0mA DID work out. I modified it (according to Huaqiangbei standards) to include an analog Amp meter. This displayed a questionable peak current draw of 1.1mA  (see below) with an extra RGB keyboard attached, at which point the undercurrent icon appeared on the screen. It performed fine without the extra keyboard.
 
-[[https://github.com/dennisdebel/pi_dj/blob/master/images/current-draw.jpg|current draw]]
+![current draw](https://github.com/dennisdebel/pi_dj/blob/master/images/current-draw.jpg)
 
 ### Mixxx
 
