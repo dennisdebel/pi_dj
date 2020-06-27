@@ -81,8 +81,7 @@ You will be greeted by the i3 config window, allowing you to choose a 'super' or
 ### Auto run
 To automatically start Mixxx on startup, in full screen, edit the i3 config file located at: ~/.confid/i3/config (see example in this repo).
 
-There is a strange bug where the mixxx window seems to loose focus when auto running on boot, ~~this is solved by launching it 'floating'. Even stranger is that the window will go full screen anyway, while keeping focus, yeah!~~
-
+There is a strange bug where the mixxx window seems to loose focus when auto running on boot, disabling interaction through your controller. This only happens every so often though. I tried to solve this by launching Mixxx 'floating'. But the bug persists. Even stranger is that the window will go full screen anyway, while keeping focus.
 
 ### Done!
 Now copy, analyze your library and go play!
@@ -99,13 +98,13 @@ The mapping provided is particular to my controller and contains many bugs but i
 
 ### Bugs
 
- * Mixxx 'loses focus' on auto run, this prevents you from scrolling trough the Mixxx library using a rotary encoder. Not sure of this is my mapping, mixxx or i3...
+ * Mixxx 'loses focus' on auto run some times, this prevents you from scrolling trough the Mixxx library using a rotary encoder. Not sure of this is my mapping, mixxx or i3...
   
  * You want to plug in your controller before starting Mixxx, otherwise Mixx will just hang/crash
 
+* Both the skin (small fonts in library) and mapping (jog wheels) need work to be fully practical.
 
 * You might need to run Mixxx first before copying skins.
-
 
 * No way to shutdown gracefully yet. You might want to add a button or hostap/ssh access. 
 
