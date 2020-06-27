@@ -15,7 +15,7 @@ This IS a weekend project and not adhering to any of Mixxx's standards of docume
 
 This guide assumes a lot, amongst others the following config:
 
-* [Raspberry Pi 3 Model B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/) with proper power supply (original 2.0mA power brick)
+* [Raspberry Pi 3 Model B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/) with proper power supply (original 2.0A power brick)
 * Optionally, for extra portability, it's possible to power the setup with a PROPER powerbank (See below). 
 * [Raspberry Pi OS (Buster) with Desktop](https://www.raspberrypi.org/downloads/raspberry-pi-os/) (I skipped the 'and recommended software' because I want a file manager but not OpenOffice, I'm not gonna do accounting on this machine.)
 * Micro SD card to put the OS on.
@@ -44,7 +44,7 @@ This install assumes you want to boot Mixxx as soon as you power your Raspberry 
 * Set your desired resolution at the bottom of: /boot/config.txt (the default 640x480 is best for my screen but on 800x600 text is still readable).
 
 ### Power
-For installation I would suggest powering your setup using the original Raspberry Pi power brick (mine is rated at 2.0mA). This allows you to hook-up a mouse, keyboard and not run into power issues. For the sake of portability it would be nice to run the setup with some sort of battery. My 2.1mA rated USB Powerbank...did not deliver. Another one, branded 'pisen', rated at 2.0mA DID work out. I modified it (according to Huaqiangbei standards) to include an analog Amp meter. This displayed a questionable peak current draw of 1.1mA  (see below) with an extra RGB keyboard attached, at which point the undercurrent icon appeared on the screen. It performed fine without the extra keyboard.
+For installation I would suggest powering your setup using the original Raspberry Pi power brick (mine is rated at 2.0A). This allows you to hook-up a mouse, keyboard and not run into power issues. For the sake of portability it would be nice to run the setup with some sort of battery. My 2.1A rated USB Powerbank...did not deliver. Another one, branded 'pisen', rated at 2.0A DID work out. I modified it (according to Huaqiangbei standards) to include an analog Amp meter. This displayed a questionable peak current draw of 1.1A  (see below) with an extra RGB keyboard attached, at which point the undercurrent icon appeared on the screen. It performed fine without the extra keyboard.
 
 ![current draw](https://github.com/dennisdebel/pi_dj/blob/master/images/current-draw.jpg)
 
