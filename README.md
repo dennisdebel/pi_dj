@@ -98,9 +98,13 @@ The mapping provided is particular to my controller and contains many bugs but i
 
 ### Bugs
 
+ * The default wave form display doesn't work, play around/choose different renderings and it will work!
+  
+ * The default bpm analysing engine does seem to produce some weird results, worse than older Mixxx versions, be warned.
+ 
  * Mixxx 'loses focus' on auto run some times, this prevents you from scrolling trough the Mixxx library using a rotary encoder. Not sure of this is my mapping, mixxx or i3...
   
- * You want to plug in your controller before starting Mixxx, otherwise Mixx will just hang/crash
+ * You want to plug in your controller before starting Mixxx, otherwise Mixx will just hang/crash.
 
 * Both the skin (small fonts in library) and mapping (jog wheels) need work to be fully practical.
 
