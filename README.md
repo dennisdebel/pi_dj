@@ -134,4 +134,6 @@ Many
 
 * Files `mixxx/skin/LateNightMinimal800x480/*` are distributed under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), see [skin.xml](mixxx/skin/LateNightMinimal800x480/skin.xml).
 * Files `mixxx/controller/Akiyama_Pulsar.midi.js` and `mixxx/controller/Akiyama_Pulsar.midi.xml` are distributed under GPL-2+, as they are based on Mixxx original code.
-* All other files can be distributed under ???
+* i3wm config (File `i3/config`) is available under the [BSD license](https://en.wikipedia.org/wiki/BSD_licenses)
+* The Raspberry Pi name is a trademark of the [Raspberry Pi Foundation](https://www.raspberrypi.org/trademark-rules/)
+* Other content is available under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) unless otherwise noted.
