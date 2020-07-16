@@ -98,7 +98,7 @@ Now copy, analyze your library and go play!
 
 ### Mixxx Skin
 
-The provide skin 'LateNightMinimal800x480' is based on the default LateNight resizable skin provided with modern builds of Mixxx. I simply deleted most of the elements and made the elements with minimal size, expandable: Size policy (e,e). There is a horizontal ruler dividing the waveform and the track name, you can drag it down using the mouse cursor to create more space for the waveform.
+The provided skin 'LateNightMinimal800x480' is based on the default LateNight resizable skin provided with modern builds of Mixxx. I simply deleted most of the elements and made the elements with minimal size, expandable: Size policy (e,e). There is a horizontal ruler dividing the waveform and the track name, you can drag it down using the mouse cursor to create more space for the waveform.
 
 ![skin playlist](https://github.com/dennisdebel/pi_dj/blob/master/images/skin-playlist.png)
 ![skin waveform](https://github.com/dennisdebel/pi_dj/blob/master/images/skin-waveform.png)
