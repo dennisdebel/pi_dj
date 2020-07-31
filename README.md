@@ -40,6 +40,7 @@ This install assumes you want to boot Mixxx as soon as you power your Raspberry 
 * Boot, open terminal and update your system:
 > sudo apt-get update && sudo apt-get upgrade
 
+#### Note: fayaaz has gone through the effort of creating a rasbian image with realtime kernel, i3 window  manager that autoboots into mixxx try it out here:  https://github.com/fayaaz/mixxx-pi-gen
 
 ### Screen
 
